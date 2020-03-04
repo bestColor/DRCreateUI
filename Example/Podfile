@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DRCreateUI_Example' do
+  pod 'DRCreateUI', :path => '../'
+
+  target 'DRCreateUI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
