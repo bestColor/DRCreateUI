@@ -24,6 +24,7 @@
 		66051A635A666C807D1E3492 /* Pods_DRCreateUI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495CA7B9D80B5DBC9DFFC895 /* Pods_DRCreateUI_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C066955B240FDD4C00F735D8 /* DRCreateUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C066955A240FDD4C00F735D8 /* DRCreateUI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		006C46161892983306068631 /* DRCreateUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DRCreateUI.podspec; path = ../DRCreateUI.podspec; sourceTree = "<group>"; };
+		006C46161892983306068631 /* DRCreateUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DRCreateUI.podspec; path = ../DRCreateUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		495CA7B9D80B5DBC9DFFC895 /* Pods_DRCreateUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DRCreateUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* DRCreateUI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRCreateUI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,14 +60,16 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		72AB6CDF23471913F3AD26B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		72AB6CDF23471913F3AD26B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		84850C4F0C56A9398E25B548 /* Pods-DRCreateUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRCreateUI_Example.debug.xcconfig"; path = "Target Support Files/Pods-DRCreateUI_Example/Pods-DRCreateUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		929871BCE797C7CB5C4E2C48 /* Pods-DRCreateUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRCreateUI_Tests.release.xcconfig"; path = "Target Support Files/Pods-DRCreateUI_Tests/Pods-DRCreateUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B3B6B7B0331F2ED5BF7B2F9C /* Pods_DRCreateUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DRCreateUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0669559240FDD4C00F735D8 /* DRCreateUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRCreateUI.h; sourceTree = "<group>"; };
+		C066955A240FDD4C00F735D8 /* DRCreateUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRCreateUI.m; sourceTree = "<group>"; };
 		C4AAB7B244AB303AB7EC29C5 /* Pods-DRCreateUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRCreateUI_Example.release.xcconfig"; path = "Target Support Files/Pods-DRCreateUI_Example/Pods-DRCreateUI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D0F3A94B472D520BD26E171C /* Pods-DRCreateUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRCreateUI_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DRCreateUI_Tests/Pods-DRCreateUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EE7597158B4A59514DF637EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EE7597158B4A59514DF637EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* DRViewController.h */,
 				6003F5A6195388D20070C39A /* DRViewController.m */,
+				C0669559240FDD4C00F735D8 /* DRCreateUI.h */,
+				C066955A240FDD4C00F735D8 /* DRCreateUI.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +198,6 @@
 				D0F3A94B472D520BD26E171C /* Pods-DRCreateUI_Tests.debug.xcconfig */,
 				929871BCE797C7CB5C4E2C48 /* Pods-DRCreateUI_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +212,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				0F2C01D3548E8AAB88577913 /* [CP] Embed Pods Frameworks */,
+				0A22F3F473FF14E88B613D1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,7 +300,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0F2C01D3548E8AAB88577913 /* [CP] Embed Pods Frameworks */ = {
+		0A22F3F473FF14E88B613D1F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,6 +372,7 @@
 				6003F59E195388D20070C39A /* DRAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* DRViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				C066955B240FDD4C00F735D8 /* DRCreateUI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,16 @@
+PODS:
+  - DRCreateUI (0.0.1)
+
+DEPENDENCIES:
+  - DRCreateUI (from `../`)
+
+EXTERNAL SOURCES:
+  DRCreateUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DRCreateUI: b9c8ee5cd4b84b79811e01acbb48fc77d24d7f9f
+
+PODFILE CHECKSUM: acb7e84347e76d8d2681a9acff35e6ede011b0dd
+
+COCOAPODS: 1.9.0.beta.2
